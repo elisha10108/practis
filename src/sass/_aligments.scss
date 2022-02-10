@@ -1,0 +1,36 @@
+.center {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.left {
+  position: fixed;
+  left: 5%;
+  top: 40%;
+}
+
+.right {
+  position: fixed;
+  right: 5%;
+  top: 40%;
+  text-align: right;
+}
+
+.leftSide {
+  @include side(70%, 18%, fixed);
+  left: 0;
+}
+
+.rightSide {
+  @include side(70%, 18%, fixed);
+  right: 0;
+}
+
+.inMiddle {
+  @include side(70%, 50%, relative);
+  left: calc(55% - 30%);
+  padding-bottom: 15px;
+}

@@ -1,2 +1,6 @@
-@use "variables";
-@use "madiaScreen";
+@import "variables";
+@import "mixins";
+@import "madiaScreen";
+@import "alerts";
+@import "aligments";
+@import "typography";

@@ -1,0 +1,6 @@
+@mixin side($height ,$width ,$position) {
+  position: $position;
+  top: 100px;
+  height: $height;
+  width: $width;
+}
