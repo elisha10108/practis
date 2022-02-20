@@ -4,9 +4,8 @@ import {mdiAlertCircle} from '@mdi/js';
 
 function Error(props) {
 
-    let classes = [];
-    let icon = null;
-
+    let classes =[];
+    let icon = false;
 
     switch (props.position) {
         case 'left':
